@@ -1,43 +1,43 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Exercice_fondue
+namespace Recipe_fondue
 {
     internal class Program
     {
         static void Main(string[] args)
         {
-            int fromageBase = 800;
-            double eauBase = 2.0;
-            double ailBase = 2.0;
-            int painBase = 400;
+            int cheeseBase = 800;
+            double waterBase = 2.0;
+            double garlicBase = 2.0;
+            int breadBase = 400;
 
-            int quantiteDeBaseFromage = fromageBase / 4;
-            double quantitedeBaseEau = eauBase / 4;
-            double quantiteDeBaseAil = ailBase / 4;
-            int quantiteDeBasePain = painBase / 4;
+            int quantityCheeseBase = cheeseBase / 4;
+            double quantityWaterBase = waterBase / 4;
+            double quantityGarlicBase = garlicBase / 4;
+            int quantityBreadBase = breadBase / 4;
 
-            Console.WriteLine("Entrez le nombre de personne(s) invitée(s) à la fondue : ");
+            Console.WriteLine("Enter the number of people invited to the fondue  : ");
             string nbc;
-            int nbConvives;
+            int nbGuests;
             nbc = Console.ReadLine();
-            nbConvives = Convert.ToInt32(nbc);
+            nbGuests = Convert.ToInt32(nbc);
 
-            int nouvelleQuantiteFromage = quantiteDeBaseFromage * nbConvives;
-            double nouvelleQuantiteEau = quantitedeBaseEau * nbConvives;
-            double nouvelleQuantiteAil = quantiteDeBaseAil * nbConvives;
-            int nouvelleQuantitePain = quantiteDeBasePain * nbConvives;
+            int newCheeseQuantity = quantityCheeseBase * nbGuests;
+            double newWaterQuantity = quantityWaterBase * nbGuests;
+            double newGarlicQuantity = quantityGarlicBase * nbGuests;
+            int newBreadQuantity = quantityBreadBase * nbGuests;
 
-            Console.WriteLine("Pour faire une fondue fribourgeoise pour " + nbConvives + " personne(s), il vous faut : ");
-            Console.WriteLine("- " + nouvelleQuantiteFromage + " gr de Vacherin fribourgeois");
-            Console.WriteLine("- " + nouvelleQuantiteEau + " dl d'eau");
-            Console.WriteLine("- " + nouvelleQuantiteAil + " gousse(s) d'ail");
-            Console.WriteLine("- " + nouvelleQuantitePain + " gr de pain");
-            Console.WriteLine("- " + "du poivre à volonté");
-            Console.WriteLine("- Arrosez le tout de préférence avec une (ou plusieurs) bouteille(s) de Johannisberg ou de Fendant du Valais, évidement !");
+            Console.WriteLine("To make a Fondue Fribourgeoise for " + nbGuests + " people, you need : ");
+            Console.WriteLine("- " + newCheeseQuantity + " grams of Vacherin Fribourgeois");
+            Console.WriteLine("- " + newWaterQuantity + " deciliter of water");
+            Console.WriteLine("- " + newGarlicQuantity + " garlic clove");
+            Console.WriteLine("- " + newBreadQuantity + " grams of bread");
+            Console.WriteLine("- " + "pepper as desired");
+            Console.WriteLine("- To drink with it choose preferably one (or several) bottle(s) of Johannisberg or Fendant du Valais, of course !");
 
             Console.ReadLine();
         }
