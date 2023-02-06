@@ -37,7 +37,7 @@ namespace Recipe_fondue
             Console.WriteLine("- " + newGarlicQuantity + " garlic clove");
             Console.WriteLine("- " + newBreadQuantity + " grams of bread");
             Console.WriteLine("- " + "pepper as desired");
-            Console.WriteLine("- To drink with it choose preferably one (or several) bottle(s) of Johannisberg or Fendant du Valais, of course !");
+            Console.WriteLine("- To drink with it choose preferably one (or several) bottle(s) of white wine !");
 
             Console.ReadLine();
         }
