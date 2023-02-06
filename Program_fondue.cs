@@ -31,8 +31,8 @@ namespace Recipe_fondue
             double newGarlicQuantity = quantityGarlicBase * nbGuests;
             int newBreadQuantity = quantityBreadBase * nbGuests;
 
-            Console.WriteLine("To make a Fondue Fribourgeoise for " + nbGuests + " people, you need : ");
-            Console.WriteLine("- " + newCheeseQuantity + " grams of Vacherin Fribourgeois");
+            Console.WriteLine("To make a perfect fondue for " + nbGuests + " people, you need : ");
+            Console.WriteLine("- " + newCheeseQuantity + " grams of cheese");
             Console.WriteLine("- " + newWaterQuantity + " deciliter of water");
             Console.WriteLine("- " + newGarlicQuantity + " garlic clove");
             Console.WriteLine("- " + newBreadQuantity + " grams of bread");
